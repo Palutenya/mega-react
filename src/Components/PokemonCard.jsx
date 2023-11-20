@@ -14,10 +14,11 @@ function PokemonCard({ pokemon }) {
   );
 }
 
-PokemonCard.PropTypes = {
+PokemonCard.propTypes = {
   pokemon: PropTypes.shape({
     name: PropTypes.string.isRequired,
     imgSrc: PropTypes.string,
   }),
 };
+
 export default PokemonCard;
